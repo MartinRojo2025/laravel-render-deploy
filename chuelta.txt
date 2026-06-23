@@ -1,0 +1,14 @@
+Información del proyecto:
+     Directorio: /home/mrojo/curso_laravel/mi-proyecto-laravel
+     URL: http://localhost:8080
+     MySQL: localhost:3306
+     Usuario: alumno
+     Password: alumno
+     Database: test
+
+Comandos útiles:
+  docker compose ps              # Ver estado de contenedores
+  docker compose logs -f         # Ver logs
+  docker compose exec php bash   # Acceder al contenedor PHP
+  docker compose down            # Detener contenedores
+  docker compose up -d           # Iniciar contenedores
