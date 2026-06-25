@@ -1,0 +1,19 @@
+# Variables de entorno para Render
+
+APP_KEY=base64:577yjGLPsDwP5+xJCiXUL9ZKZ12bNTYNUknlGKorw5o=
+APP_ENV=production
+APP_DEBUG=false
+APP_URL=https://tu-app.onrender.com
+
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=test
+DB_USERNAME=alumno
+DB_PASSWORD=alumno
+
+SESSION_DRIVER=database
+LOG_CHANNEL=stack
+LOG_LEVEL=debug
+CACHE_STORE=database
+QUEUE_CONNECTION=database

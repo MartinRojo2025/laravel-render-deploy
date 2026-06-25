@@ -1,7 +1,7 @@
 FROM php:8.3-fpm
 
 RUN apt-get update && apt-get install -y \
-    nginx git curl unzip libzip-dev libpng-dev \
+    nginx git curl unzip libzip-dev libpng-dev default-mysql-server \
     && docker-php-ext-install pdo_mysql zip gd \
     && apt-get clean && rm -rf /var/lib/apt/lists/*
 
