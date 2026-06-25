@@ -2,7 +2,7 @@ services:
   - type: web
     name: mi-proyecto-laravel
     runtime: docker
-    dockerfilePath: ./Dockerfile.render
+    dockerfilePath: ./Dockerfile
     envVars:
       - key: APP_ENV
         value: production
